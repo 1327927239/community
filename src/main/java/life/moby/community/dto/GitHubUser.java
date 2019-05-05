@@ -29,4 +29,13 @@ public class GitHubUser {
     public String getDio() {
         return dio;
     }
+
+    @Override
+    public String toString() {
+        return "GitHubUser{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", dio='" + dio + '\'' +
+                '}';
+    }
 }
