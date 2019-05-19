@@ -11,5 +11,5 @@
 [lombok(不用写 get/set 方法)](https://projectlombok.org/)
 ## 脚本
 ```
-mvn flyway:mvn
+mvn flyway:migrate
 ```
